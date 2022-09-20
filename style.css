@@ -1,0 +1,58 @@
+
+
+     
+     
+     .formstyle{
+        width: 300px;
+        height: 330px;
+        margin:auto; 
+        margin-top: 0%;
+        /* margin-top: auto; */
+        background-color:rgb(10, 9, 9);
+        border-radius: 15px;
+    
+    }
+ input{
+        width:60px;
+        height:30px;
+        color:black;
+        background-color:gray;
+        margin:0px 0px 0px 9px;
+ 
+ }
+ #Button{
+     text-align: center;
+     font-size: large;
+     border-radius: 15%;
+ }
+ .container{
+    margin-top: 0%;
+    margin-bottom: 6%;
+ }
+    
+    #answerstyle
+    { 
+        width: 280px;
+        height: 60px;
+        /* color: #0e0b0b; */
+        background-color:#f1f1b1;
+        border-radius: 15%;
+        font-size: large;
+        margin-top: 5%;
+       }
+    #border{
+     margin-top:4%;
+     margin-bottom:10%;
+     border-style:none; 
+    }
+    .btn1{
+        background-color: aquamarine;
+    }
+    .btnB{
+        background-color:rosybrown;
+
+    }
+    .btnc{
+        background-color:burlywood;
+
+    }

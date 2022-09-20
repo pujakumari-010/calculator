@@ -1,0 +1,47 @@
+<html>
+<head>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="formstyle" id="border">
+<form name="forms">
+<div>
+<input type="text" name="answer"class="jadu"id="answerstyle"></div><br>
+<div class="container">
+<input type="button"class="btn1"id="Button"value=" AC " onclick="form.answer.value = '' " id="clr">
+<input type="button" id="Button"value=" ( " onclick="form.answer.value += '(' ">
+<input type="button"id="Button" value=" ) " onclick="form.answer.value += ')' ">
+<input type="button" id="Button"value=" . " onclick="form.answer.value += '.' ">
+</div>
+<div class="container">
+<input type="button" id="Button" value=" 9 " onclick="form.answer.value += '9' ">
+<input type="button" id="Button" value=" 8 " onclick="form.answer.value += '8' ">
+<input type="button" id="Button" value=" 7 " onclick="form.answer.value += '7' ">
+<input type="button"class="btnc"id="Button" value=" + " onclick="form.answer.value += '+' ">
+</div>
+
+<div class="container">
+<input type="button" id="Button"value=" 6 " onclick="form.answer.value += '6' ">
+<input type="button" id="Button"value=" 5 " onclick="form.answer.value += '5' ">
+<input type="button" id="Button"value=" 4 " onclick="form.answer.value += '4' ">
+<input type="button" class="btnc"id="Button"value=" - " onclick="form.answer.value += '-' ">
+</div>
+<div class="container">
+<input type="button"id="Button" value=" 3 " onclick="form.answer.value += '3' ">
+<input type="button" id="Button" value=" 2 " onclick="form.answer.value += '2' ">
+<input type="button" id="Button" value=" 1 " onclick="form.answer.value += '1' ">
+<input type="button" class="btnc" id="Button"value=" * " onclick="form.answer.value += '*' ">
+</div>
+<div class="container">
+<input type="button"class="btnB" id="Button" value=" 0 " onclick="form.answer.value += '0' ">
+<input type="button" id="Button" value=" / " onclick="form.answer.value += '/' ">
+<input type="button" id="Button" value=" % " onclick="form.answer.value += '%' ">
+<input type="button" class="btnc"id="Button" value=" = " onclick="form.answer.value = eval(form.answer.value) ">
+</div>
+
+</form>
+</div>
+</body>
+
+</html>
